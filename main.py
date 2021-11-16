@@ -20,5 +20,5 @@ vectors = kyc.insightface_model(faces,frame) #512-D without batch
 print(vectors)
 
 # Module EQface (Face quality)
-qualities = kyc.eqface_model(faces,frame) #512-D without batch
+qualities = kyc.eqface_model(faces,frame) #without batch
 print(qualities)
