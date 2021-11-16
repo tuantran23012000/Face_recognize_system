@@ -4,8 +4,8 @@ import cv2
 model_type = ""
 device = "gpu"
 kyc = KYC(model_type,device)
+#frame = cv2.imread("test1.png")
 frame = cv2.imread("test2.png")
-#frame = cv2.imread("E:/AI/FTECH/CODE/EKYC/eKYC/img_test2.jpg")
 
 # Module Retinaface (Face detection)
 faces = kyc.retinaface_model(frame) #without batch
